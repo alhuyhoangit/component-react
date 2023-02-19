@@ -5,6 +5,7 @@ import dataJson from './Data/data.json'
 import DanhSachSanPham from './Props/DanhSachSanPham'
 import ExerciseCarStore from './Props/ExerciseCarStore/ExerciseCarStore'
 import ExerciseCart from './Props/ExerciseCart/ExerciseCart'
+import BaiTapGioHangRedux from './BaiTapGioHangRedux/BaiTapGioHangRedux'
 
 
 export default class App extends Component {
@@ -37,7 +38,8 @@ export default class App extends Component {
       <div>
         {/* <ExerciseCarStore /> */}
         {/* <DemoProps/> */}
-        <ExerciseCart />
+        {/* <ExerciseCart /> */}
+        <BaiTapGioHangRedux />
       </div>
     )
   }
